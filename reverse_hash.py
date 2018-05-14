@@ -1,5 +1,5 @@
 class Hash:
-	def __init__(self,letters):
+	def __init__(self,letters='acdegilmnoprstuw'):
 		self.base = letters
 
 	def reverse_hash(self,num):
